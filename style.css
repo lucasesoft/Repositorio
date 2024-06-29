@@ -10,39 +10,37 @@ body {
 
 .container {
     text-align: center;
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    color: #333;
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
 }
 
-p {
-    margin: 20px 0;
-    color: #666;
+h1, h2 {
+    margin: 10px 0;
 }
 
-.buttons {
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
+.projects {
+    margin-top: 20px;
 }
 
-.btn {
-    display: inline-block;
-    padding: 10px 20px;
+button {
+    background-color: #007BFF;
     color: white;
-    background-color: #007bff;
     border: none;
+    padding: 10px 20px;
+    margin: 5px;
     border-radius: 5px;
-    text-decoration: none;
-    font-size: 16px;
+    cursor: pointer;
     transition: background-color 0.3s;
 }
 
-.btn:hover {
+button:hover {
     background-color: #0056b3;
 }
