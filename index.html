@@ -1,20 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lucas Guimarães Pereira</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
+        <img src="MinhaFoto.jpg" alt="Foto de Lucas Guimarães Pereira" class="profile-photo">
         <h1>Sou Lucas Guimarães Pereira, estudante de Engenharia de Software</h1>
-        <p>Segue meus projetos:</p>
-        <div class="buttons">
-            <a href="https://github.com/thybiagio/CareConnect" target="_blank" class="btn">CareConnect</a>
-            <a href="https://brezendelima.github.io/gestaoEscolar_Unicesumar/" target="_blank" class="btn">Gestão Escolar</a>
-            <a href="https://github.com/lucasesoft/Jogo_Da_Velha" target="_blank" class="btn">Jogo da Velha</a>
+        <h2>Segue meus projetos:</h2>
+        <div class="projects">
+            <button onclick="redirectTo('https://github.com/thybiagio/CareConnect')">CareConnect</button>
+            <button onclick="redirectTo('https://brezendelima.github.io/gestaoEscolar_Unicesumar/')">Gestão Escolar</button>
+            <button onclick="redirectTo('https://github.com/lucasesoft/Jogo_Da_Velha')">Jogo da Velha</button>
         </div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>
